@@ -1,0 +1,69 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.item-table{
+    background-color: #ffffff;
+    padding-top: 3px;
+}
+
+.item-table2{
+    background-color: #e7e7e8;
+    padding-top: 10px;
+}
+
+.image-logo-to-map{
+    width: 50px;
+    border: 0.5px solid silver;
+}
+
+.placemark_layout_container {
+    position: relative;
+    font-family: Georgia;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.polygon_layout {
+    position: relative;
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid #b5b3c4;
+    width: 70px;
+    left: 10px;
+    min-height: 70px;
+    position: absolute;
+    color: #943A43;
+
+
+
+
+    background: radial-gradient( at 2% 0%, rgba(182, 182, 182, 0.53), rgba(168, 168, 168, 0.53) 10%, rgba(239, 238, 238, 0.82) 10.1%);
+    box-shadow: 3px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.polygon_layout:after, .polygon_layout:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+
+
+
+.logo-map-name-org{
+    font-size: 7px;
+}
